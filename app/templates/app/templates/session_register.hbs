@@ -1,0 +1,45 @@
+<div class="h800">
+    <div class="row m-n">
+        <div class="col-md-4 col-md-offset-4 m-t-lg">
+            <section class="panel">
+                <header class="panel-heading bg bg-dark lter text-center">
+                    Register
+                </header>
+                <div id="block-alert"></div>
+                <form action="index.html" class="panel-body" id="form-register">
+                    <div class="form-group">
+                        <label class="control-label"> Email </label>
+                        <input type="email" placeholder="test@example.com" class="form-control" name="email">
+                        <span class="help-block m-b-none text-danger"> Will send security code to your email. </span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label"> Security Code </label>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" name="code">
+                            </div>
+                            <div class="col-md-8">
+                                <button type="button" class="btn btn-default btn-block" id="btn-code"> Get Security Code </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label"> Name </label>
+                        <input type="text" class="form-control" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label"> Password </label>
+                        <input type="password" class="form-control" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-info btn-block" id="btn-register"> Register and Login</button>
+                    <div class="line line-dashed"></div>
+                    <p class="text-muted text-center">
+                        <small> Already get account？</small>
+                    </p>
+                    <a href="#login" class="btn btn-white btn-block"> Back to login page </a>
+                </form>
+            </section>
+        </div>
+    </div>
+</div>

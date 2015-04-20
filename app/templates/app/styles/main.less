@@ -1,0 +1,129 @@
+@import "../../node_modules/bootstrap/less/bootstrap.less";
+@import "../../vendors/todo/less/app.less";
+
+
+body {
+    font: 12px "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+/*
+ * 高度 & 宽度
+ */
+
+.h-20 {
+    min-height: 20px;
+}
+
+.h-50 {
+    min-height: 50px;
+}
+
+.h-100 {
+    min-height: 100px;
+}
+
+.h-200 {
+    min-height: 200px;
+}
+
+.h-500 {
+    min-height: 500px;
+}
+
+.h-800 {
+    min-height: 800px;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.m-b-100 {
+    margin-bottom: 100px;
+}
+/*
+ * 酷炫全屏背景
+ */
+
+.bg-cool {
+    background: #4f5762 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAPICAIAAABrbS31AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYFJREFUeNrsmzsSgkEIgxfH2sLK+59UD6AzuoMQsp8tjT8J4blxuz/Wu99lffhhwIBhw3BdKzy+IzzwCChKRNm5JE798iAMCAPiY1zUwl3YjiCTBwkD6XyuyatWaCm81CgaQIthV69eWgLmLVGL2+tl6ffMSWU5BdoInHhaLTprkNLtK4uqr8KJFaI/z+0ei9yQJJzo9MN8hNRa3G38XcmRXqITP7rE5vyiJnkFMWhZTAxLwsMUTrOb0CxYWilakXHsE0trPzhsabHh3czB1igmFnE3cSJ8KFCJaULz9qO1Whq2iZM9dAg9imYGTigi2LtwcwcqcywS9FHffrnLuK1IS0Iw0WcWLKdu4jQPTyruMjS5W4P5KG2vWbg1Nj+tw4HccbRH+yqZ7s69xWktazV3LC6vayq2GSUrCBc8TJ6SJJa1Lgtp+9cc3UBxwD9ar2xWv+6je+IDtxODQAseGMqOQvDu6N7ZpUWGJf9lCdAiACiDCeY8lsMAReHuFMNTgAEA4MEJ6ldTMlYAAAAASUVORK5CYII=) 0 0 repeat-x;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.bg-cool .v-middle {
+    display: table-cell;
+}
+/*
+ * wrapper
+ */
+
+.v-wrapper {
+    height: 100%;
+    width: 100%;
+}
+/**
+ * table clickable
+ */
+
+.table-clickable tr:hover {
+    cursor: pointer;
+}
+/**
+ * file upload input
+ */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.dropfile {
+    border: 2px dashed #e0e4e8;
+    text-align: center;
+    min-height: 100px;
+}
+/**
+  * form input
+  */
+
+.input-xxl {
+    width: 500px;
+}
+
+.advanced-search {
+    float: left;
+    width: 500px;
+}
+
+/**
+ * sparkline
+ */
+
+.sparkline canvas {
+    vertical-align: text-bottom;
+}

@@ -1,0 +1,15 @@
+{
+    "app": {
+        "public": "build",
+        "title": "xweb"
+    },
+    "server": {
+        "url": "http://your.dev.com"
+    },
+    "deployment": {
+    	"host": "",
+    	"port": "",
+    	"user": "",
+    	"remotePath": ""
+    }
+}
