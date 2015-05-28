@@ -1,5 +1,7 @@
 # generator-xweb [![Build Status](https://secure.travis-ci.org/zzswang/generator-xweb.png?branch=master)](https://travis-ci.org/zzswang/generator-xweb)
 
+"学骑自行车最快的方式就是先骑上去"
+
 > This project is a yeoman generator, please read more about [Yeoman](http://yeoman.io) generator
 
 It will generate a project which is a pure browser side project.
