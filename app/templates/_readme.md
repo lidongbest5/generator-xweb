@@ -2,6 +2,8 @@ XWEB
 ========================
 it is a pure browser side project, decoupled with backend. Cool and fancy.
 
+Use restful api to connect backend services.
+
 Use bower, npm and static vendor file as our dependencies repos.
 
 
@@ -21,6 +23,16 @@ Prepare for *Delveloper*
 1.  a text editor for hbs、js、html、nodejs and etc.
 1.  nodejs(>=0.10.13)
 1.  npm install -g gulp bower mocha
+
+
+Dependencies
+---------
+
+To install dependencies from npm and bower, run:
+
+```bash
+npm install & bower install
+```
 
 
 Quick Start
