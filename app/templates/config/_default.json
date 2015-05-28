@@ -3,6 +3,7 @@
         "public": "build",
         "title": "xweb"
     },
+    /*"browser": "safari",*/
     "server": {
         "url": "http://your.dev.com"
     },

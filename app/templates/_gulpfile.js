@@ -186,7 +186,8 @@ gulp.task('default', ['build'], function() {
         server: {
             baseDir: config.app.public,
             middleware: proxyMiddleware
-        }
+        },
+        browser: config.browser
     });
 
     // watch everything
