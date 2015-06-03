@@ -1,6 +1,6 @@
 {
     "name": "generator-xweb",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Scaffold out a front-end rest web app, user bower and npm at same time",
     "license": "MIT",
     "repository": {
