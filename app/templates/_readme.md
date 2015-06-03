@@ -34,7 +34,6 @@ To install dependencies from npm and bower, run:
 npm install & bower install
 ```
 
-
 Quick Start
 ------------
 
@@ -44,6 +43,17 @@ Quick Start
     // start with online server
     // make sure you edit the config file which contains server config
     gulp --online
+
+
+
+Configuration
+--------
+
+You can change your configurations under the config directory, please notify default.json is in the git repository.
+read more about [node-config](https://github.com/lorenwest/node-config).
+
+When gulp is started, it will open a browser automatically, it is supported by browserSync.
+If you want to change it to another browser, please edit "browser" in default.json. Like ``` "browser": "chrome" ```
 
 
 
