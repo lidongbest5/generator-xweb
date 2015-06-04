@@ -4,10 +4,19 @@
 
 > This project is a yeoman generator, please read more about [Yeoman](http://yeoman.io) generator
 
-It will generate a project which is a pure browser side project.
-Use restful api to connect backend services.
-Use bower, npm and static files at same time to manage dependencies.
-User browserify, so you can write your js as same as nodejs.
+## Features
+- pure browser side project.
+- restful api to connect to backend services.
+- use npm as primary dependencies source.
+- use bower as dependencies source.
+- allow static files as dependencies.
+- use browserify to unify all sources above.
+- a fake server to allow work offline.
+- automatically redirect http request and web socket to online server with ```gulp --online```
+- common js; coding in human way.
+- mocha test framework
+- auto reload when files are changed. supported by gulp.
+- open browser automatically, and sync user behavior between different devices. supported by browserSync.
 
 
 ## Getting Started
